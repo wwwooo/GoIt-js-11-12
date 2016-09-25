@@ -1,0 +1,54 @@
+p, h2, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 10px;
+}
+
+.wrap {
+  padding: 50px 0;
+  margin: 50px auto;
+  width: 512px;
+  background: white;
+  font-size: 18px;
+  -webkit-box-shadow: 0px 0px 6px -2px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 6px -2px rgba(0,0,0,1);
+  box-shadow: 0px 0px 6px -2px rgba(0,0,0,1);
+}
+
+.name {
+  margin-bottom: 22px;
+  font-size: 21px;
+  text-align: center;
+}
+
+.photo {
+  display: block;
+  margin: 0 auto 0px;
+}
+
+.hr {
+  height: 1px;
+  margin: 16px 50px 23px;
+  background: black;
+}
+
+p, .reasons-list {
+  padding-left: 65px;
+}
+
+p {
+  margin-top: 5px;
+  line-height: 25px;
+}
+
+.reasons-list {
+  margin: 25px 0 20px;
+}
+
+.reasons-list li {
+  margin-left: 20px;
+  line-height: 25px;
+}
