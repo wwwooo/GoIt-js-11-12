@@ -1,4 +1,8 @@
 $(function() {
+    $('.jcarousel').jcarousel({
+        visible_img: 4
+    });
+
     var html = $('#item_tmpl').html();
     var data = {
         name: 'Малиновская Ксения Александровна',
