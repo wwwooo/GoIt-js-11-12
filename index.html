@@ -26,27 +26,27 @@
     </div>
     <script type="text/html" id="item_tmpl">
         <div class="wrap">
-            <h2 class="name"><%=name%></h2>
+            <h2 class="name"><%= name %></h2>
             <img class="photo" src="img/photo.png" alt="">
-            <p><%=work%></p>
+            <p><%= work %></p>
             <div class="hr"></div>
             <p>Хочу учить front-end, потому что:</p>
             <ul class="reasons-list">
-                <%for (var i = 0; i < reasons.length; i++) {%>
-                    <li><%= reasons[i]%></li>
-                <%}%>
+                <% for (var i = 0; i < reasons.length; i++) { %>
+                    <li><%= reasons[i] %></li>
+                <% } %>
             </ul>
             <div class="hr"></div>
             <p>
                 Логин skype<br>
-                <%=login_skype%>
+                <%= login_skype %>
                 <br><br>
-                <a href=<%=link_facebook%>>Мой профиль в facebook</a>
+                <a href=<%= link_facebook %>>Мой профиль в facebook</a>
             </p>
             <div class="hr"></div>
             <p>
                 Мой feedback:<br>
-                <%=feedback%>
+                <%= feedback %>
             </p>
         </div>
     </script>

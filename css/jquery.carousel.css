@@ -13,12 +13,7 @@
 
 .jcarousel-element {
     display: block;
-    margin-right: 10px;
     float: left;
-}
-
-.jcarousel-element img {
-    max-width: 200px;
 }
 
 .jcarousel-element p {
